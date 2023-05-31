@@ -1,0 +1,65 @@
+.contactus{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 123px;
+}
+body{
+  
+}
+
+  
+  .form {
+    margin: 0 auto;
+    width: 50vw;
+    height: 40vw;
+    margin-top: 24px;
+    z-index: 1;
+  }
+  
+   
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 22px; }
+  
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .input-wrapper i {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+ .input-txt,
+  input[type="email"],
+  textarea {
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .submit:hover {
+    background-color: #45a049;
+  }
+  

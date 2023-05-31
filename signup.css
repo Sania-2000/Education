@@ -1,0 +1,70 @@
+.container {
+    /* height: 37vw; */
+    max-width: 452px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 120px;
+}
+  
+
+  h2 {
+    text-align: center;
+    margin: 23px 0px;
+  }
+
+  
+  .email,
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  #google-btn{
+background-color: rgb(252, 252, 164);
+color:black;
+font-weight: bolder;
+  }
+  #facebook-btn{
+    background-color: rgb(122, 122, 248);
+    color:black;
+    font-weight: bolder;
+  }
+
+  .signup-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .signup-btn:hover {
+    background-color: #45a049;
+  }
+
+  .social-login {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .social-login p {
+    margin-bottom: 23px;
+  }
+
+  .social-login button {
+    margin-right: 5px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 37px;
+  }
